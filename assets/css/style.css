@@ -729,6 +729,45 @@ section .container {
   transform: translateY(-50%);
 }
 
+.education .education-item:nth-child(3)::after {
+  content: "";
+  position: absolute;
+  width: 150px; /* Adjust size for specific icon */
+  height: 150px; /* Adjust size for specific icon */
+  background-image: url('../img/nvidia.png'); /* Path to your specific icon */
+  background-size: contain;
+  background-repeat: no-repeat;
+  left: -180px; /* Adjust positioning for the icon */
+  top: 50%; /* Center vertically */
+  transform: translateY(-50%);
+}
+
+.education .education-item:nth-child(4)::after {
+  content: "";
+  position: absolute;
+  width: 150px; /* Adjust size for specific icon */
+  height: 150px; /* Adjust size for specific icon */
+  background-image: url('../img/ibm.png'); /* Path to your specific icon */
+  background-size: contain;
+  background-repeat: no-repeat;
+  left: -180px; /* Adjust positioning for the icon */
+  top: 50%; /* Center vertically */
+  transform: translateY(-50%);
+}
+
+.education .education-item:nth-child(5)::after {
+  content: "";
+  position: absolute;
+  width: 150px; /* Adjust size for specific icon */
+  height: 150px; /* Adjust size for specific icon */
+  background-image: url('../img/google.jpg'); /* Path to your specific icon */
+  background-size: contain;
+  background-repeat: no-repeat;
+  left: -180px; /* Adjust positioning for the icon */
+  top: 50%; /* Center vertically */
+  transform: translateY(-50%);
+}
+
 .education .education-item::before,
 .education .education-item::after {
   z-index: 1; /* Ensure icons are above border-left */
@@ -737,6 +776,115 @@ section .container {
 .education-section {
   max-width: 1000px;
   margin-left: 190px;
+}
+
+/* Certifications */
+
+.education .certification-item {
+  padding: 0 0 20px 20px; /* Adjust left padding to accommodate the icon */
+  margin-top: -2px;
+  border-left: 2px solid rgba(255, 255, 255, 0.2);
+  position: relative;
+}
+
+.education .certification-item h4 {
+  line-height: 18px;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  /* color: #E63946; */
+  margin-bottom: 10px;
+}
+
+.education .certification-item h5 {
+  font-size: 16px;
+  background: rgba(255, 255, 255, 0.15);
+  padding: 5px 15px;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.education .certification-item ul {
+  padding-left: 20px;
+}
+
+/* .education .education-item ul li {
+  padding-bottom: 10px;
+} */
+
+.education .certification-item:last-child {
+  padding-bottom: 0;
+}
+
+.education .certification-item::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  left: -9px;
+  top: 0;
+  background: #E63946;
+  border: 2px solid #E63946;
+}
+
+.education .certification-item:nth-child(1)::after {
+  content: "";
+  position: absolute;
+  width: 150px; /* Adjust size for specific icon */
+  height: 150px; /* Adjust size for specific icon */
+  background-image: url('../img/nvidia.png'); /* Path to your specific icon */
+  background-size: contain;
+  background-repeat: no-repeat;
+  left: -180px; /* Adjust positioning for the icon */
+  top: 50%; /* Center vertically */
+  transform: translateY(-50%);
+}
+
+.education .certification-item:nth-child(2)::after {
+  content: "";
+  position: absolute;
+  width: 150px; /* Adjust size for specific icon */
+  height: 150px; /* Adjust size for specific icon */
+  background-image: url('../img/ibm.png'); /* Path to your specific icon */
+  background-size: contain;
+  background-repeat: no-repeat;
+  left: -180px; /* Adjust positioning for the icon */
+  top: 50%; /* Center vertically */
+  transform: translateY(-50%);
+}
+
+.education .certification-item:nth-child(3)::after {
+  content: "";
+  position: absolute;
+  width: 150px; /* Adjust size for specific icon */
+  height: 150px; /* Adjust size for specific icon */
+  background-image: url('../img/google.png'); /* Path to your specific icon */
+  background-size: contain;
+  background-repeat: no-repeat;
+  left: -180px; /* Adjust positioning for the icon */
+  top: 50%; /* Center vertically */
+  transform: translateY(-50%);
+}
+
+.education .certification-item:nth-child(4)::after {
+  content: "";
+  position: absolute;
+  width: 150px; /* Adjust size for specific icon */
+  height: 150px; /* Adjust size for specific icon */
+  background-image: url('../img/stanford.png'); /* Path to your specific icon */
+  background-size: contain;
+  background-repeat: no-repeat;
+  left: -180px; /* Adjust positioning for the icon */
+  top: 50%; /* Center vertically */
+  transform: translateY(-50%);
+}
+
+.education .certification-item::before,
+.education .certification-item::after {
+  z-index: 1; /* Ensure icons are above border-left */
 }
 
 /*--------------------------------------------------------------
@@ -818,7 +966,7 @@ section .container {
   position: absolute;
   width: 150px; /* Adjust size for specific icon */
   height: 150px; /* Adjust size for specific icon */
-  background-image: url('../img/asu.png'); /* Path to your specific icon */
+  background-image: url('../img/nvidia.png'); /* Path to your specific icon */
   background-size: contain;
   background-repeat: no-repeat;
   left: -180px; /* Adjust positioning for the icon */
@@ -831,7 +979,20 @@ section .container {
   position: absolute;
   width: 150px; /* Adjust size for specific icon */
   height: 150px; /* Adjust size for specific icon */
-  background-image: url('../img/giki.png'); /* Path to your specific icon */
+  background-image: url('../img/daraz.png'); /* Path to your specific icon */
+  background-size: contain;
+  background-repeat: no-repeat;
+  left: -180px; /* Adjust positioning for the icon */
+  top: 50%; /* Center vertically */
+  transform: translateY(-50%);
+}
+
+.experience .experience-item:nth-child(3)::after {
+  content: "";
+  position: absolute;
+  width: 150px; /* Adjust size for specific icon */
+  height: 150px; /* Adjust size for specific icon */
+  background-image: url('../img/daraz.png'); /* Path to your specific icon */
   background-size: contain;
   background-repeat: no-repeat;
   left: -180px; /* Adjust positioning for the icon */
@@ -969,6 +1130,8 @@ section .container {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 
 .portfolio .portfolio-wrap .portfolio-info::before {
